@@ -1,8 +1,8 @@
 import re
 import os
 s=input()
-l=s.split()
-'''if('notepad' in l) :
+'''l=s.split()
+if('notepad' in l) :
     os. system('notepad') '''
 if(re.find(r'[.*?]notepad[\w*]') :
      os.system('notepad') 
