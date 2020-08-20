@@ -4,12 +4,12 @@ s=input()
 l=s.split()
 '''if('notepad' in l) :
     os. system('notepad') '''
-if(re.find(r'[.*]?notepad[\w*]') :
+if(re.find(r'[.*?]notepad[\w*]') :
      os.system('notepad') 
-elif(re.find(r'[.*]?paint[\w*]) :
-     os.system('paint') 
-elif(re.find(r'[,*]?media player[\w*]) :
-     os.system(''wmplayer') 
+elif(re.find(r'[.*?]chrome[\w*]) :
+     os.system('chrome') 
+elif(re.find(r'[.*?]media player[\w*]) :
+     os.system('wmplayer') 
      
 
 
